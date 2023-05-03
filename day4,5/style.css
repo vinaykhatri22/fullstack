@@ -1,0 +1,99 @@
+/* the tag selector */
+body{
+    background-color: rgb(229 208 208);
+}
+
+img{
+    width: 300px;
+    
+    height: 300px;
+}
+p{
+    color:brown;
+}
+
+
+/* class selector */
+
+.first_para{
+    color: blue;
+}
+
+.red_apple{
+  background-color: aqua;
+    /* position: sticky;
+    top: 500px; */
+    
+}
+.circular{
+    border-radius: 100%;
+
+}
+
+#special{
+    font-weight: bold;
+    color: darkgoldenrod;
+    background-color: blue;
+}
+
+.ekgroup,h1{
+    font-weight: bold;
+    color: rgb(210, 30, 50);
+    background-color: beige;
+
+}
+
+/* pesudo selector */
+.apple{
+    color: rgb(27, 27, 208);
+}
+ .apple:hover{
+    color: rgb(4, 20, 49);
+    color: rgb(115, 205, 24);
+    font-weight: bold;
+ }
+
+
+
+ /* first box play */
+ .square100{
+    height: 100px;
+    width: 100px;
+ }
+ 
+
+ .firstbox{
+    background-color:royalblue;
+    /* height: 100px;
+    width: 100px; */
+ }
+ .secondbox{
+    background-color:red;
+    /* margin-inline-start: 100px; */
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+    /* visibility: hidden; */
+    /* display: none; */
+    /* height: 100px;
+    width: 100px; */
+ }
+ .thirdbox{
+    background-color:greenyellow;
+    /* margin-inline-start: 200px;
+    margin-block-start: -200px; */
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+    /* height: 100px;
+    width: 100px; */
+ }
+
+
+ .red_apple{
+    position: relative;
+    top: 50px;
+ }
+
+
+ 
