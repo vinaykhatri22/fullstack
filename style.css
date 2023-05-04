@@ -1,3 +1,92 @@
+<<<<<<< HEAD
+body {
+    background-color: aqua;
+    text-align: center;
+    color: white;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: medium;
+
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.black {
+    background-color: black;
+
+}
+
+.blue {
+    background-color: blue;
+
+}
+.orange{
+    background-color: orangered;
+}
+
+.green {
+    background-color: green;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+@media screen and (min-width:1000px) {
+
+    body {
+        background-color: gold;
+    }
+}
+
+/* @media screen and (prefer-color-scheme:dark) {
+    
+} */
+
+@media screen and (min-width:1025px) {
+    .red{
+        background-color: orange;
+    }
+    
+}
+@media screen and (min-width:1025px) {
+    .black{
+        background-color: yellowgreen;
+    }
+    
+} 
+
+
+@media screen and(max-width:1000px) {
+    div {
+        display: block;
+    }
+}
+
+@media (orientation:landscape)
+{
+    body{
+        flex-direction: row;
+    }
+}
+@media (orientation:landscape)
+{
+    body{
+        flex-direction: row;
+    }
+}
+=======
 :root{
     --primaryColor: #577D86;
     --backgroundColor: #B9EDDD;
@@ -166,3 +255,4 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif; 
 */
+>>>>>>> d2bc6a4a3f46edd4a9fdde6b314d0df436a34966
